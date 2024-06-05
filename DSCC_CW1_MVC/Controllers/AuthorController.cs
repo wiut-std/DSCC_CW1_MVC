@@ -8,7 +8,7 @@ namespace DSCC_CW1_MVC.Controllers
 {
     public class AuthorController : Controller
     {
-        private readonly string BaseUrl = "https://localhost:7252/";
+        private readonly string BaseUrl = "http://ec2-44-223-54-15.compute-1.amazonaws.com/";
 
         // GET: AuthorController
         public async Task<ActionResult> Index()
